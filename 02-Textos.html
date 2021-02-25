@@ -20,11 +20,28 @@
         mark {
             background-color: aqua;
         }
+
+        h1 {
+            /*Valores para Text-Align: left, right, center, justify*/
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        /*Apenas os parágrafos da classe dir são alinhados para a direita, fugindo da regra do justificado.*/
+        p.dir {
+            text-align: right;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Formatação de textos</h1>
+    <h1>Formatação de Textos</h1>
+    <!--Divisão-->
+    <p class="dir">História Baseada em Fatos Reais.</p>
+
     <p>Orkutilson morava na
     <address>Rua do Sobe e Desce, 333</address>,
     e seu email era <address>orkutilson@gmail.com</address>
@@ -49,17 +66,37 @@
     <!--<del> = texto apagado(SEMÂNTICO)-->
     <p>Sua professora achava que ele era <del>meio burro</del>
         não muito inteligente, já que sempre tinha dificuldade nas provas.</p>
-    
-        <!--<ins> Texto inserido (SEMÂNTICO)-->
+
+    <!--<ins> Texto inserido (SEMÂNTICO)-->
     <p>Depois que ele fez a recuperação, sua foi de 6,7
         <ins> o suficiente para a sua aprovação </ins> </p>
     <!--
         <sub> = Texto pendurado para baixo
         <sup> = texto pendurado para cima    
     -->
-    <p>Orkutilson também gostava de fórmulas. Suas preferidas eram 
+    <p>Orkutilson também gostava de fórmulas. Suas preferidas eram
         H<sub>2</sub>O e E = mc<sup>2</sub>
     </p>
+    <!--<quote> = Citações no meio de um parágrafo
+        <blockquote> = um bloco de citação (com várias linhas, por exemplo)-->
+    <p>Sua frase favorita era <quote> Penso, logo existo (Decarte)</quote>. E seu
+        trecho de música preferido era:</p>
+    <blockquote>
+        É preciso amar as pessoas <br>
+        Como se não houvesse amanhã <br>
+        Por que se você parar pra pensar <br>
+        Na verdade não há <br>
+        Sou uma gota d'água <br>
+        Sou um grão de areia <br>
+        Você me diz que seus pais não lhe entendem <br>
+        Mas você não entende seus pais
+    </blockquote>
+    <!--<abrr> = Definição de abreviações
+        <code> = representa código de programação ou marcação. No caso de HTML, os sinais < e > precisam ser substituídos por &lt; e &gt;, respectivamente-->
+    <p>Em suas horas vagas, Orkutilson era um membro ativo da <abbr title="Associação dos Moradores Bairro do Limão">
+            ASMOBALI</abbr> e estudava <abbr title="HyperText Markup Language">HTML</abbr>. Suas Tags favoritas eram
+        <code> &lt;blockquote&gt;</code> e <code>&lt;address&gt;</p>
+    <p class="dir">Autor Desconhecido</p>
 </body>
 
 </html>

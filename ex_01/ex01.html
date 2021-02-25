@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A linguagem HTML</title>
+    <!--Título da página-->
+    <style>
+        /*Folha de estilos CSS*/
+        p {
+
+            text-align: justify;
+            /*Alinhamento Justificado para os paragráfos*/
+        }
+
+        p.dir {
+            text-align: right;
+            /*Alinhamento a direita para os paragráfos de com classe dir*/
+        }
+
+        h1 {
+            text-align: center;
+            /*Textos de títulos 1 alinhados ao centro*/
+        }
+
+        h2 {
+            text-align: left;
+            /*Textos de título 2 alinhados a esquerda*/
+        }
+    </style>
+</head>
+
+<body>
+    <!--Título 1 do Conteúdo-->
+    <h1>A linguagem HTML<sup>*</sup></h1>
+
+    <!--Bloco de citação para a frase de Tim Berners-Lee-->
+    <blockquote>
+        Qualquer um que tenha perdido a noção de tempo usando um computador conhece a propensão a sonhar, a urgência de
+        realizar sonhos e a tendência a ficar sem almoçar.
+    </blockquote>
+
+    <!--Tag <p> com class ="DIR" para alinhar o nome do autor da frase à direita da página-->
+    <p class="dir">— Tim Berners-Lee</p>
+    <!--Primeiro <p> de conteúdo. Nele a tag <abbr> é utilizada para fazer a abreviatura de HyperText Markup Language (HTML)-->
+    <p>
+        <abbr title="HyperText Markup Language">HTML</abbr> (abreviação para a expressão inglesa HyperText Markup
+        Language, que significa: "Linguagem de Marcação de Hipertexto", é uma linguagem <del>
+            <!-- Tag para colocar a linha no meio do texto e mostrar para o robô do Google que é um termo que foi excluído-->de
+            programação</del> <ins>
+            <!--Tag para mostrar que o texto foi inserido --> de marcação
+        </ins> utilizada na construção de páginas na
+        Web. Documentos HTML podem ser interpretados por navegadores.
+    </p>
+
+    <!--Nova tag p para separação dos parágrafos-->
+    <p>A linguagem em si é formada por <em>
+            <!--Tag para colocar o texto como ítalico-->tags</em>, como
+        <code> <!-- Tag para colocar o texto como código e &lt; para colocar o sinal < e &gt; para o sinal de > -->&lt;p&gt;</code>
+        e
+        <code>&lt;h1&gt;</code>.
+    </p>
+    <!--Título de Nível 2-->
+    <h2>História</h2>
+    <p>
+        Tim Berners-Lee (físico britânico) criou o HTML original (e outros protocolos associados como o HTTP) em uma
+        estação NeXTcube usando o ambiente de desenvolvimento NeXTSTEP. Na época <mark>
+            <!--Tag para marcar a frase-->a linguagem não era uma
+            especificação,
+            mas uma coleção de ferramentas</mark> para resolver um problema de Tim: a comunicação e disseminação das
+        pesquisas
+        entre ele e seu grupo de colegas. Sua solução, combinada com a então emergente internet pública (que
+        tornar-se-ia a Internet) ganhou atenção mundial.
+    </p>
+
+    <p>
+        A linguagem foi definida em especificações formais na década de 1990, inspiradas nas propostas originais de Tim
+        Berners-Lee. A primeira publicação foi esboçada por Berners-Lee e Dan Connolly, e publicada em 1993. Foi criado
+        um grupo de trabalho para o HTML no ano seguinte, que publicou o HTML 2.0 em 1995. Desde 1996, as especificações
+        HTML vêm sendo mantidas, com o auxílio de fabricantes de
+        <em>
+            software
+        </em>, pelo
+        <strong>
+            <!--tag para colocar o texto em negrito e para mostrar para os robôs indexadores que essa frase é importante-->
+            World Wide Web
+            Consortium
+            (W3C)
+        </strong>.
+    </p>
+    <p>O endereço da W3C no Brasil é:</p>
+    <address>
+        <!--Tag para definir um endereço-->
+        Av. das Nações Unidas, 11541, 7° andar<br>
+        São Paulo – SP<br>
+        04578-000<br>
+    </address>
+    <p>
+        Apesar disso, em 2000 a linguagem tornou-se também uma norma internacional (ISO/IEC 15445:2000). A recomendação
+        HTML 4.01 foi publicada no final de 1999 pelo W3C.
+
+        Em janeiro de 2008 o W3C publicou a especificação do HTML5 como Working Draft. <mark>A versão 5 do HTML foi
+            oficializada em 2014.</mark>
+    </p>
+
+    <p class="dir"><sup>*</sup>Fonte: adaptado da Wikipedia</p>
+</body>
+
+</html>
