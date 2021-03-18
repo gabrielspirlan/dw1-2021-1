@@ -1,0 +1,24 @@
+p {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: greenyellow;
+    text-decoration: none; /*Tira o sublinhado do link*/
+}
+
+/*Links já visitados*/
+
+/*Link enquanto o mouse está sobre ele*/
+/*a:hover{
+    color: orange;
+    text-decoration: underline;
+}*/
+
+a:hover{
+    
+    filter: brightness(50%);/*Altera o brilho da cor, valores acima de 100 deixam a cor mais clara, valores abaixo de 100% deixa a cor mais escura*/
+    text-decoration: underline;
+}
+
+
