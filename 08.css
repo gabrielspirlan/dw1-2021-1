@@ -6,7 +6,9 @@ a{
     color: greenyellow;
     text-decoration: none; /*Tira o sublinhado do link*/
 }
-
+a:visited {
+    background-color: black;
+}
 /*Links já visitados*/
 
 /*Link enquanto o mouse está sobre ele*/
@@ -17,7 +19,7 @@ a{
 
 a:hover{
     
-    filter: brightness(50%);/*Altera o brilho da cor, valores acima de 100 deixam a cor mais clara, valores abaixo de 100% deixa a cor mais escura*/
+    filter: brightness(50%);
     text-decoration: underline;
 }
 
